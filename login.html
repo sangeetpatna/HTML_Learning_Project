@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        #page{
+            height: 500px;
+            width: 60%;
+            
+            background-color: skyblue;
+            margin-top: 120px;
+            margin-left: 300px;
+            padding-top: 1px;
+        }
+        #lform{
+            height: 250px;
+            width: 40%;
+            padding-top: 15px;
+            background-color: rgb(238, 227, 215);
+            margin-top: 120px;
+            margin-left: 270px;
+            text-align: center;
+            text-transform: capitalize;
+            box-shadow: 0 0 7px rgb(188, 131, 131);
+            
+        }
+        #formh2{
+            margin-bottom: -5px;
+            margin-left: 30px;
+            color: skyblue;
+            text-align: left;
+        }
+        body{
+            background: linear-gradient(to bottom right, rgb(30,15,1500),rgb(170, 8, 0));
+            height: 615px;
+            
+        }
+        #btn1{
+            color: whitesmoke;
+            background-color: skyblue;
+            font-weight: bold;
+            height: 35px;
+            box-shadow: 0px 0px 10px lightgray;
+        }
+        input{
+            border: 2px solid whitesmoke;
+            height: 45px;
+            width: 80%;
+            text-transform: capitalize;
+            margin-top: 10px;   
+        }
+        ::-webkit-input-placeholder{
+            color: red;
+            opacity: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div id="lform">
+        <form action="welcome.html"  method="post">
+        <h2 id="formh2">Login To Your Account</h2>
+        <input type="text" id="uid" name="uid" placeholder="username"><br>
+        <input type="password" id="pas" name="pas" placeholder="password"><br>
+        <input type="submit" value="login" id="btn1">
+        </form>
+        
+</div>
+</div>
+</body>
+</html>
